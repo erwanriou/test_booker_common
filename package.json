@@ -1,0 +1,33 @@
+{
+  "name": "@erwanriou/test_booker_common",
+  "version": "1.1.29",
+  "description": "Main microservice library to handle middleware, factories and models",
+  "main": "src/index.js",
+  "scripts": {
+    "deploy": " sh scripts/deploy.sh",
+    "install:env": "sh scripts/env.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erwanriou/test_booker_common.git"
+  },
+  "publishConfig": {
+    "cache": "~/.npm",
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "keywords": [],
+  "author": "Erwan Riou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erwanriou/test_booker_common/issues"
+  },
+  "homepage": "https://github.com/erwanriou/test_booker_common#readme",
+  "peerDependencies": {
+    "express-validator": "^6.x",
+    "bcryptjs": "^2.x",
+    "express-rate-limit": "^5.x",
+    "jsonwebtoken": "^8.x",
+    "mongoose": "^5.x",
+    "mongoose-update-if-current": "^1.x"
+  }
+}
