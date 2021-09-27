@@ -13,7 +13,7 @@
   },
   "publishConfig": {
     "cache": "~/.npm",
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://registry.npmjs.org/"
   },
   "keywords": [],
   "author": "Erwan Riou",

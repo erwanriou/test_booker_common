@@ -28,12 +28,6 @@ const UserSchema = new Schema({
     type: String,
     default: bcrypt.hashSync(number, 12)
   },
-  resetPasswordToken: {
-    type: String
-  },
-  resetPasswordExpires: {
-    type: Date
-  },
   lastConnectionDate: {
     type: Date,
     index: true
