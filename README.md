@@ -10,7 +10,7 @@ Main Repository to handle factories, middleware and models.
 
 in the CLI
 ```
-npm i --save @archsplace/archsplace_common
+npm i --save @erwanriou/test_booker_common
 ```
 
 ## How it work
