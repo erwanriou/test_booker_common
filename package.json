@@ -1,6 +1,6 @@
 {
   "name": "@erwanriou/test_booker_common",
-  "version": "1.1.29",
+  "version": "1.1.30",
   "description": "Main microservice library to handle middleware, factories and models",
   "main": "src/index.js",
   "scripts": {
