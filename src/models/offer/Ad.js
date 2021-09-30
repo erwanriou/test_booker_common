@@ -29,7 +29,7 @@ const AdSchema = new Schema({
 AdSchema.plugin(updateIfCurrentPlugin)
 
 AdSchema.statics.findByEvent = async event => {
-  return await User.findOne({ _id: event._id, __v: event.__v - 1 })
+  return await Ad.findOne({ _id: event._id, __v: event.__v - 1 })
 }
 
-module.exports = User = mongoose.model("ads", AdSchema)
+module.exports = Ad = mongoose.model("ads", AdSchema)

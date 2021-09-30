@@ -24,7 +24,7 @@ const OfferSchema = new Schema({
 OfferSchema.plugin(updateIfCurrentPlugin)
 
 OfferSchema.statics.findByEvent = async event => {
-  return await User.findOne({ _id: event._id, __v: event.__v - 1 })
+  return await Offer.findOne({ _id: event._id, __v: event.__v - 1 })
 }
 
-module.exports = User = mongoose.model("offers", OfferSchema)
+module.exports = Offer = mongoose.model("offers", OfferSchema)
